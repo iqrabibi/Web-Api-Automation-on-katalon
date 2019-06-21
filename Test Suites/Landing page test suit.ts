@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Landing page test suit</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>69e95abd-1d0c-4983-86a9-dc7245bbb1ec</testSuiteGuid>
+   <testCaseLink>
+      <guid>c88f7010-2a95-42d4-8ad2-2a90055a9093</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Landing_Page_Testcases/Request_A_Callback_Option</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4f57aff7-a913-40ea-b7b7-d50aa8bc881e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ExcelFileForDataOfRequestCallbackOption</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4f57aff7-a913-40ea-b7b7-d50aa8bc881e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Fname</value>
+         <variableId>e24a27a2-3c5e-431f-8f57-713b7c29f336</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f57aff7-a913-40ea-b7b7-d50aa8bc881e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Lname</value>
+         <variableId>2eaa50dd-da76-40cf-9157-0d03cc45e0f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f57aff7-a913-40ea-b7b7-d50aa8bc881e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pNumber</value>
+         <variableId>fb1a4e0b-fc6a-4602-ad60-8d0e36bb4ddd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f57aff7-a913-40ea-b7b7-d50aa8bc881e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Message</value>
+         <variableId>0b121fdd-b457-4bed-8e07-84b3ac1f5e8d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

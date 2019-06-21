@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Calculator_Test_Suit" time="11" tests="1" failures="0" errors="0">
+   <testsuite name="Calculator_Test_Suit" tests="1" failures="0" errors="0" time="11" timestamp="2019-06-19 16:26:11" hostname="VenD - IqraBibi" id="Test Suites/Calculator_Test_Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\KatalonIntegration\\Web-Api-Automation-on-katalon\\Reports\\Calculator_Test_Suit\\20190619_162604"/>
+         <property name="logFiles" value="D:\\KatalonIntegration\\Web-Api-Automation-on-katalon\\Reports\\Calculator_Test_Suit\\20190619_162604\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VenD - IqraBibi"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="75be8fd3dc5828d12ecd34c1ac507701"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items" classname="Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items" status="PASSED">
+         <system-out><![CDATA[2019-06-19 16:26:11 - [TEST_CASE][PASSED] - Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items: Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items
+
+2019-06-19 16:26:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-19 16:26:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-19 16:26:12 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-19 16:26:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-19 16:26:16 - [TEST_STEP][PASSED] - navigateToUrl("http://qa1.bystored.com/calculator"): Navigate to 'http://qa1.bystored.com/calculator' successfully
+
+2019-06-19 16:26:18 - [MESSAGE][PASSED] - Navigate to 'http://qa1.bystored.com/calculator' successfully
+
+2019-06-19 16:26:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-19 16:26:19 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-19 16:26:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Storage Calculator  STORED/button_Bar Stool_add-383"), 0): Object 'Object Repository/Page_Storage Calculator  STORED/button_Bar Stool_add-383' is visible
+
+2019-06-19 16:26:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-19 16:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Storage Calculator  STORED/button_Bar Stool_add-383' is visible
+
+2019-06-19 16:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Storage Calculator  STORED/button_Bar Stool_add-383"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Storage Calculator  STORED/button_Bar Stool_add-383' is clicked on
+
+2019-06-19 16:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Storage Calculator  STORED/button_Bar Stool_add-383' is clicked on
+
+2019-06-19 16:26:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 16:26:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 16:26:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Storage Calculator  STORED/a_Office")): Object: 'Object Repository/Page_Storage Calculator  STORED/a_Office' is clicked on
+
+2019-06-19 16:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Storage Calculator  STORED/a_Office' is clicked on
+
+2019-06-19 16:26:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Storage Calculator  STORED/a_Office"), 2): Object 'Object Repository/Page_Storage Calculator  STORED/a_Office' is visible
+
+2019-06-19 16:26:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Storage Calculator  STORED/a_Office' is visible
+
+2019-06-19 16:26:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Storage Calculator  STORED/img")): Object: 'Object Repository/Page_Storage Calculator  STORED/img' is clicked on
+
+2019-06-19 16:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Storage Calculator  STORED/img' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-19 16:26:11 - [TEST_SUITE][PASSED] - Calculator_Test_Suit: Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

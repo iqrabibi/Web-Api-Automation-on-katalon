@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Calculator_Test_Suit,Chrome 74.0.3729.169,,2019-06-19 18:48:44,2019-06-19 18:49:04,19.732s,FAILED
+,,,,,,
+Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items,Chrome 74.0.3729.169,,2019-06-19 18:48:45,2019-06-19 18:48:57,11.942s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-06-19 18:48:45,2019-06-19 18:48:50,4.892s,PASSED
+"navigateToUrl(""http://qa1.bystored.com/calculator"")",Chrome 74.0.3729.169,,2019-06-19 18:48:50,2019-06-19 18:48:52,2.126s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-19 18:48:52,2019-06-19 18:48:54,1.259s,PASSED
+"waitForElementVisible(findTestObject(""Page_Storage Calculator  STORED/button_Bar Stool_add-383""), 0)",Chrome 74.0.3729.169,,2019-06-19 18:48:54,2019-06-19 18:48:54,0.539s,PASSED
+"click(findTestObject(""Page_Storage Calculator  STORED/button_Bar Stool_add-383""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-19 18:48:54,2019-06-19 18:48:54,0.153s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-06-19 18:48:54,2019-06-19 18:48:56,2.031s,PASSED
+"click(findTestObject(""Page_Storage Calculator  STORED/a_Office""))",Chrome 74.0.3729.169,,2019-06-19 18:48:56,2019-06-19 18:48:56,0.128s,PASSED
+"waitForElementVisible(findTestObject(""Page_Storage Calculator  STORED/a_Office""), 2)",Chrome 74.0.3729.169,,2019-06-19 18:48:56,2019-06-19 18:48:56,0.070s,PASSED
+"click(findTestObject(""Page_Storage Calculator  STORED/img""))",Chrome 74.0.3729.169,,2019-06-19 18:48:56,2019-06-19 18:48:57,0.119s,PASSED
+"verifyElementPresent(findTestObject(""Page_Storage Calculator  STORED/img_Height_icon icon-done"", [""variable"":""""]), 0)",Chrome 74.0.3729.169,,2019-06-19 18:48:57,2019-06-19 18:48:57,0.055s,PASSED
+,,,,,,
+Test Cases/Add_Item_TestCase/Add_Custom_Item,Chrome 74.0.3729.169,,2019-06-19 18:48:57,2019-06-19 18:49:03,6.376s,FAILED
+delay(5),Chrome 74.0.3729.169,,2019-06-19 18:48:57,2019-06-19 18:49:02,5.005s,PASSED
+"click(findTestObject(""Page_Storage Calculator  STORED/a_Add a custom item""))",Chrome 74.0.3729.169,,2019-06-19 18:49:02,2019-06-19 18:49:02,0.150s,PASSED
+"click(findTestObject(""Page_Storage Calculator  STORED/input_Item name_custom-item-name""))",Chrome 74.0.3729.169,,2019-06-19 18:49:02,2019-06-19 18:49:03,0.697s,FAILED

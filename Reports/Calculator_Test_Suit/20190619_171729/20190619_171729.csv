@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Calculator_Test_Suit,Firefox 67.0,,2019-06-19 17:17:36,2019-06-19 17:18:02,26.696s,ERROR
+,,,,,,
+Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items,Firefox 67.0,,2019-06-19 17:17:36,2019-06-19 17:17:45,9.438s,PASSED
+"openBrowser("""")",Firefox 67.0,,2019-06-19 17:17:36,2019-06-19 17:17:40,4.130s,PASSED
+"navigateToUrl(""http://qa1.bystored.com/calculator"")",Firefox 67.0,,2019-06-19 17:17:40,2019-06-19 17:17:42,1.958s,PASSED
+maximizeWindow(),Firefox 67.0,,2019-06-19 17:17:42,2019-06-19 17:17:42,0.029s,PASSED
+"waitForElementVisible(findTestObject(""Page_Storage Calculator  STORED/button_Bar Stool_add-383""), 0)",Firefox 67.0,,2019-06-19 17:17:42,2019-06-19 17:17:42,0.097s,PASSED
+"click(findTestObject(""Page_Storage Calculator  STORED/button_Bar Stool_add-383""), STOP_ON_FAILURE)",Firefox 67.0,,2019-06-19 17:17:42,2019-06-19 17:17:43,0.296s,PASSED
+delay(2),Firefox 67.0,,2019-06-19 17:17:43,2019-06-19 17:17:45,2.019s,PASSED
+"click(findTestObject(""Page_Storage Calculator  STORED/a_Office""))",Firefox 67.0,,2019-06-19 17:17:45,2019-06-19 17:17:45,0.251s,PASSED
+"waitForElementVisible(findTestObject(""Page_Storage Calculator  STORED/a_Office""), 2)",Firefox 67.0,,2019-06-19 17:17:45,2019-06-19 17:17:45,0.055s,PASSED
+"click(findTestObject(""Page_Storage Calculator  STORED/img""))",Firefox 67.0,,2019-06-19 17:17:45,2019-06-19 17:17:45,0.243s,PASSED
+"verifyElementPresent(findTestObject(""Page_Storage Calculator  STORED/img_Height_icon icon-done"", [""variable"":""""]), 0)",Firefox 67.0,,2019-06-19 17:17:45,2019-06-19 17:17:45,0.028s,PASSED
+,,,,,,
+Test Cases/Add_Item_TestCase/Add_Custom_Item,Firefox 67.0,,2019-06-19 17:17:45,2019-06-19 17:18:01,15.657s,ERROR
+delay(5),Firefox 67.0,,2019-06-19 17:17:46,2019-06-19 17:17:51,5.002s,PASSED
+"click(findTestObject(""Page_Storage Calculator  STORED/a_Add a custom item""))",Firefox 67.0,,2019-06-19 17:17:51,2019-06-19 17:17:51,0.251s,PASSED
+delay(5),Firefox 67.0,,2019-06-19 17:17:51,2019-06-19 17:17:56,5.003s,PASSED
+"setText(findTestObject(""Page_Storage Calculator  STORED/input_Item name_custom-item-name""), Custom_Item_Name)",Firefox 67.0,,2019-06-19 17:17:56,2019-06-19 17:17:56,0.079s,PASSED
+delay(5),Firefox 67.0,,2019-06-19 17:17:56,2019-06-19 17:18:01,5.003s,PASSED
+"sendKeys(findTestObject(""Page_Storage Calculator  STORED/input_Length_custom-item-length""), Custom_Item_Length)",Firefox 67.0,,2019-06-19 17:18:01,2019-06-19 17:18:01,0.038s,ERROR

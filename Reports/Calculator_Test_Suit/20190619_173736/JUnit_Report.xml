@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Calculator_Test_Suit" time="16" tests="1" failures="0" errors="1">
+   <testsuite name="Calculator_Test_Suit" tests="1" failures="0" errors="1" time="16" timestamp="2019-06-19 17:37:43" hostname="VenD - IqraBibi" id="Test Suites/Calculator_Test_Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\KatalonIntegration\\Web-Api-Automation-on-katalon\\Reports\\Calculator_Test_Suit\\20190619_173736"/>
+         <property name="logFiles" value="D:\\KatalonIntegration\\Web-Api-Automation-on-katalon\\Reports\\Calculator_Test_Suit\\20190619_173736\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VenD - IqraBibi"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Firefox 67.0"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="4930d56f-799d-4d28-af32-a1a8220fd0f4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items" classname="Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items" status="PASSED">
+         <system-out><![CDATA[2019-06-19 17:37:43 - [TEST_CASE][PASSED] - Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items: Test Cases/Add_Item_TestCase/Add_Kitchen_Office_Items
+
+2019-06-19 17:37:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-19 17:37:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-06-19 17:37:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-19 17:37:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-19 17:37:47 - [TEST_STEP][PASSED] - navigateToUrl("http://qa1.bystored.com/calculator"): Navigate to 'http://qa1.bystored.com/calculator' successfully
+
+2019-06-19 17:37:49 - [MESSAGE][PASSED] - Navigate to 'http://qa1.bystored.com/calculator' successfully
+
+2019-06-19 17:37:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-19 17:37:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-19 17:37:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Storage Calculator  STORED/button_Bar Stool_add-383"), 0): Object 'Object Repository/Page_Storage Calculator  STORED/button_Bar Stool_add-383' is visible
+
+2019-06-19 17:37:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-19 17:37:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Storage Calculator  STORED/button_Bar Stool_add-383' is visible
+
+2019-06-19 17:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Storage Calculator  STORED/button_Bar Stool_add-383"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Storage Calculator  STORED/button_Bar Stool_add-383' is clicked on
+
+2019-06-19 17:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Storage Calculator  STORED/button_Bar Stool_add-383' is clicked on
+
+2019-06-19 17:37:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 17:37:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 17:37:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Storage Calculator  STORED/a_Office")): Object: 'Object Repository/Page_Storage Calculator  STORED/a_Office' is clicked on
+
+2019-06-19 17:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Storage Calculator  STORED/a_Office' is clicked on
+
+2019-06-19 17:37:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Storage Calculator  STORED/a_Office"), 2): Object 'Object Repository/Page_Storage Calculator  STORED/a_Office' is visible
+
+2019-06-19 17:37:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Storage Calculator  STORED/a_Office' is visible
+
+2019-06-19 17:37:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Storage Calculator  STORED/img")): Object: 'Object Repository/Page_Storage Calculator  STORED/img' is clicked on
+
+2019-06-19 17:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Storage Calculator  STORED/img' is clicked on
+
+2019-06-19 17:37:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Storage Calculator  STORED/img_Height_icon icon-done", ["variable":""]), 0): Object 'Object Repository/Page_Storage Calculator  STORED/img_Height_icon icon-done' is present
+
+2019-06-19 17:37:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-19 17:37:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Storage Calculator  STORED/img_Height_icon icon-done' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Item_TestCase/Add_Custom_Item" classname="Test Cases/Add_Item_TestCase/Add_Custom_Item" status="ERROR">
+         <error type="ERROR" message="Test Cases/Add_Item_TestCase/Add_Custom_Item FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Page_Storage Calculator  STORED/input_Length_custom-item-length', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at Add_Custom_Item.run(Add_Custom_Item:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560947861525.run(TempTestSuite1560947861525.groovy:35)
+"/>
+         <system-out><![CDATA[2019-06-19 17:37:52 - [TEST_CASE][ERROR] - Test Cases/Add_Item_TestCase/Add_Custom_Item: Test Cases/Add_Item_TestCase/Add_Custom_Item FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Page_Storage Calculator  STORED/input_Length_custom-item-length', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at Add_Custom_Item.run(Add_Custom_Item:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560947861525.run(TempTestSuite1560947861525.groovy:35)
+
+
+2019-06-19 17:37:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-06-19 17:37:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-19 17:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Storage Calculator  STORED/a_Add a custom item")): Object: 'Object Repository/Page_Storage Calculator  STORED/a_Add a custom item' is clicked on
+
+2019-06-19 17:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Storage Calculator  STORED/a_Add a custom item' is clicked on
+
+2019-06-19 17:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Storage Calculator  STORED/input_Item name_custom-item-name")): Object: 'Object Repository/Page_Storage Calculator  STORED/input_Item name_custom-item-name' is clicked on
+
+2019-06-19 17:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Storage Calculator  STORED/input_Item name_custom-item-name' is clicked on
+
+2019-06-19 17:37:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Storage Calculator  STORED/input_Item name_custom-item-name"), Custom_Item_Name): Text 'Box
+' is set on object 'Object Repository/Page_Storage Calculator  STORED/input_Item name_custom-item-name'
+
+2019-06-19 17:37:58 - [MESSAGE][PASSED] - Text 'Box
+' is set on object 'Object Repository/Page_Storage Calculator  STORED/input_Item name_custom-item-name'
+
+2019-06-19 17:37:58 - [TEST_STEP][ERROR] - setText(findTestObject("Page_Storage Calculator  STORED/input_Length_custom-item-length"), Custom_Item_Length): setText(findTestObject("Page_Storage Calculator  STORED/input_Length_custom-item-length"), Custom_Item_Length) FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Page_Storage Calculator  STORED/input_Length_custom-item-length', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at Add_Custom_Item.run(Add_Custom_Item:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560947861525.run(TempTestSuite1560947861525.groovy:35)
+
+
+2019-06-19 17:37:58 - [MESSAGE][ERROR] - setText(findTestObject("Page_Storage Calculator  STORED/input_Length_custom-item-length"), Custom_Item_Length) FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Page_Storage Calculator  STORED/input_Length_custom-item-length', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at Add_Custom_Item.run(Add_Custom_Item:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560947861525.run(TempTestSuite1560947861525.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-06-19 17:37:52 - [TEST_CASE][ERROR] - Test Cases/Add_Item_TestCase/Add_Custom_Item: Test Cases/Add_Item_TestCase/Add_Custom_Item FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Page_Storage Calculator  STORED/input_Length_custom-item-length', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at Add_Custom_Item.run(Add_Custom_Item:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560947861525.run(TempTestSuite1560947861525.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-19 17:37:43 - [TEST_SUITE][ERROR] - Calculator_Test_Suit: Test Cases/Add_Item_TestCase/Add_Custom_Item FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Page_Storage Calculator  STORED/input_Length_custom-item-length', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at Add_Custom_Item.run(Add_Custom_Item:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560947861525.run(TempTestSuite1560947861525.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-06-19 17:37:43 - [TEST_SUITE][ERROR] - Calculator_Test_Suit: Test Cases/Add_Item_TestCase/Add_Custom_Item FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Page_Storage Calculator  STORED/input_Length_custom-item-length', ...]
+Possible solutions: setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), clearText(com.kms.katalon.core.testobject.TestObject), clearText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+	at Add_Custom_Item.run(Add_Custom_Item:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560947861525.run(TempTestSuite1560947861525.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
